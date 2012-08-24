@@ -10,6 +10,7 @@
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js" type="text/javascript"></script>
     <script src="js/jquery.tools.min.js" language="JavaScript"> </script>
+   
 </head>
 
 
@@ -82,9 +83,9 @@
 													});
 													
 												</script>
-                                             <div style="margin:0 auto; width: 340px; height:300px;">
+                                             <div class="Carrusel">
                                                     <!-- "previous page" action -->
-                                                    <a class="prev browse left"><img class="flechita" src="images/flechaIzquierda.png" /></a>
+                                                    <a class="prev browse left"><img id="flechitaIzquierda" src="images/flechaIzquierda.png" /></a>
                                                      
                                                     <!-- root element for scrollable -->
                                                     <div class="scrollable" id="scrollable">
@@ -92,14 +93,17 @@
                                                       <!-- root element for the items -->
                                                       <div class="items">
                                                      
-                                                        <!-- 1-5 -->
+                                                        <!--CARACTERIZACION -->
                                                         <article>
                                                              <div class="articulokathe wellKathe">
-                                                                 <header id="Morado"> <h3>Nombre del Dato</h3></header>
+                                                                 <header class="tituloCarrusel" id="fondoCeleste"> <p>Participación Ciudadana</p></header>
                                                                  <section>
-                                                                     <div class="epigrafe"> la muni tiene...</div>
-                                                                     <div class="categoria_x">  
-                                                                        <span> 10</span> centros comunales por cada <span> 5000</span> habitantes.
+                                                                     <div class="epigrafe colorCeleste"> La muni tiene...</div>
+                                                                     <br />
+                                                                     <div class="categoria categoriaParticipacion">  
+                                                                        <span class="numeroGrandeCategoria colorCeleste"> 10</span> 
+                                                                        <br /> <br />
+                                                                       centros comunales por cada <span> 5000</span> habitantes.
                                                                      </div>
                                                                  </section>
                                                                  <section class="infoNacional">
@@ -108,43 +112,262 @@
                                                             </div>
                                                         </article>
                                                      
-                                                        <!-- 5-10 -->
+                                                        <!--CARACTERIZACION -->
                                                         <div>
                                                           <article>
-                                                             <div class="articulokathe well">
-                                                                 <header> <h3>Nombre del dato</h3></header>
+                                                             <div class="articulokathe wellKathe">
+                                                                 <header class="tituloCarrusel" id="fondoCeleste"> <p>Servicios de Salud</p></header>
                                                                  <section>
-                                                                     <div class="epigrafe"> la muni tiene...</div>
-                                                                     <div class="categoria_x">  
-                                                                        <span> 10</span> centros comunales por cada <span> 5000</span> habitantes.
+                                                                     <div class="epigrafe colorCeleste"> La Comuna tiene</div>
+                                                                     <br />
+                                                                     <div class="categoria ServicioSalud">  
+                                                                        <span class="numeroGrandeCategoria colorCeleste"> 10</span> 
+                                                                        <br /> <br /> servicios de salud por cada <span> 5000</span> habitantes.
                                                                      </div>
                                                                  </section>
                                                                  <section class="infoNacional">
-                                                                 el otro textito de la <span> otro dato</span>
+                                                                 El promedio nacional es de <span>30</span>
+                                                                 servicios de salud por 300.000 habitantes inscritos en FONASA
                                                                  </section>
                                                             </div>
                                                         </article>
                                                         </div>
                                                      
-                                                        <!-- 10-15 -->
+                                                        <!-- ADMINISTRACION-->
                                                         <div>
-                                                          <img src="http://farm4.static.flickr.com/3629/3323896446_3b87a8bf75_t.jpg" />
-                                                          <img src="http://farm4.static.flickr.com/3023/3323897466_e61624f6de_t.jpg" />
-                                                          <img src="http://farm4.static.flickr.com/3650/3323058611_d35c894fab_t.jpg" />
-                                                          <img src="http://farm4.static.flickr.com/3635/3323893254_3183671257_t.jpg" />
+                                                          <article>
+                                                             <div class="articulokathe wellKathe">
+                                                                 <header class="tituloCarrusel" id="fondoGris"> <p>ranking del consejo para la transparencia</p></header>
+                                                                 <section>
+                                                                     <div class="epigrafe colorGris"> La Comuna tiene</div>
+                                                                     <br />
+                                                                     <div class="categoria rankingConsejo">  
+                                                                        <span class="numeroGrandeCategoria colorGris"> 10</span> 
+                                                                        <br /> <br /> servicios de salud por cada <span> 5000</span> habitantes.
+                                                                     </div>
+                                                                 </section>
+                                                                 <section class="infoNacional">
+                                                                 El promedio nacional es de <span>30</span>
+                                                                 servicios de salud por 300.000 habitantes inscritos en FONASA
+                                                                 </section>
+                                                            </div>
+                                                        </article>
                                                         </div>
+                                                     
+                                                      <!-- EDUCACION-->
+                                                        <div>
+                                                          <article>
+                                                             <div class="articulokathe wellKathe">
+                                                                 <header class="tituloCarrusel" id="fondoBurdeo"> <p>ranking del consejo para la transparencia</p></header>
+                                                                 <section>
+                                                                     <div class="epigrafe colorBurdeo"> La Comuna tiene</div>
+                                                                     <br />
+                                                                     <div class="categoria rankingConsejo">  
+                                                                        <span class="numeroGrandeCategoria colorBurdeo"> 10</span> 
+                                                                        <br /> <br /> servicios de salud por cada <span> 5000</span> habitantes.
+                                                                     </div>
+                                                                 </section>
+                                                                 <section class="infoNacional">
+                                                                 El promedio nacional es de <span>30</span>
+                                                                 servicios de salud por 300.000 habitantes inscritos en FONASA
+                                                                 </section>
+                                                            </div>
+                                                        </article>
+                                                        </div>
+                                                        
+                                                         <!-- SALUD-->
+                                                        <div>
+                                                          <article>
+                                                             <div class="articulokathe wellKathe">
+                                                                 <header class="tituloCarrusel" id="fondoRojo"> <p>ranking del consejo para la transparencia</p></header>
+                                                                 <section>
+                                                                     <div class="epigrafe colorRojo"> La Comuna tiene</div>
+                                                                     <br />
+                                                                     <div class="categoria servicioSalud">  
+                                                                        <span class="numeroGrandeCategoria colorRojo"> 10</span> 
+                                                                        <br /> <br /> servicios de salud por cada <span> 5000</span> habitantes.
+                                                                     </div>
+                                                                 </section>
+                                                                 <section class="infoNacional">
+                                                                 El promedio nacional es de <span>30</span>
+                                                                 servicios de salud por 300.000 habitantes inscritos en FONASA
+                                                                 </section>
+                                                            </div>
+                                                        </article>
+                                                        </div>
+                                                        
+                                                        <!-- SALUD-->
+                                                        <div>
+                                                          <article>
+                                                             <div class="articulokathe wellKathe">
+                                                                 <header class="tituloCarrusel" id="fondoRojo"> <p>ranking del consejo para la transparencia</p></header>
+                                                                 <section>
+                                                                     <div class="epigrafe colorRojo"> La Comuna tiene</div>
+                                                                     <br />
+                                                                     <div class="categoria servicioSalud">  
+                                                                        <span class="numeroGrandeCategoria colorRojo"> 10</span> 
+                                                                        <br /> <br /> servicios de salud por cada <span> 5000</span> habitantes.
+                                                                     </div>
+                                                                 </section>
+                                                                 <section class="infoNacional">
+                                                                 El promedio nacional es de <span>30</span>
+                                                                 servicios de salud por 300.000 habitantes inscritos en FONASA
+                                                                 </section>
+                                                            </div>
+                                                        </article>
+                                                        </div>
+                                                        
+                                                        <!-- SALUD-->
+                                                        <div>
+                                                          <article>
+                                                             <div class="articulokathe wellKathe">
+                                                                 <header class="tituloCarrusel" id="fondoRojo"> <p>ranking del consejo para la transparencia</p></header>
+                                                                 <section>
+                                                                     <div class="epigrafe colorRojo"> La Comuna tiene</div>
+                                                                     <br />
+                                                                     <div class="categoria servicioSalud">  
+                                                                        <span class="numeroGrandeCategoria colorRojo"> 10</span> 
+                                                                        <br /> <br /> servicios de salud por cada <span> 5000</span> habitantes.
+                                                                     </div>
+                                                                 </section>
+                                                                 <section class="infoNacional">
+                                                                 El promedio nacional es de <span>30</span>
+                                                                 servicios de salud por 300.000 habitantes inscritos en FONASA
+                                                                 </section>
+                                                            </div>
+                                                        </article>
+                                                        </div>
+                                                        
+                                                        
+                                                        
+                                                        <!-- SEGURIDAD-->
+                                                        <div>
+                                                          <article>
+                                                             <div class="articulokathe wellKathe">
+                                                                 <header class="tituloCarrusel" id="fondoAzul"> <p>Variación de delitos con mayor connotación social</p></header>
+                                                                 <section>
+                                                                     <div class="epigrafe colorAzul"> La Comuna tiene</div>
+                                                                     <br />
+                                                                     <div class="categoria rankingConsejo">  
+                                                                        <span class="numeroGrandeCategoria colorAzul"> -3,99%</span> 
+                                                                        <br /> <br /> Ha variado el número de delitos con mayor connotación social entre el 2007 y el 2010 en la comuna<span>   </span> 
+                                                                     </div>
+                                                                 </section>
+                                                                 <section class="infoNacional">
+                                                                 En el ranking de variación de delitos con mayor connotación social la comuna está en el lugar  <span class="numeroInfoNacional colorAzul">92 </span>
+
+                                                                 </section>
+                                                            </div>
+                                                        </article>
+                                                        </div>
+                                                        
+                                                        <!-- URBANISMO-->
+                                                        <div>
+                                                          <article>
+                                                             <div class="articulokathe wellKathe">
+                                                                 <header class="tituloCarrusel" id="fondoVerde"> <p>ranking del consejo para la transparencia</p></header>
+                                                                 <section>
+                                                                     <div class="epigrafe colorVerde"> La Comuna tiene</div>
+                                                                     <br />
+                                                                     <div class="categoria rankingConsejo">  
+                                                                        <span class="numeroGrandeCategoria colorVerde"> 10</span> 
+                                                                        <br /> <br /> servicios de salud por cada <span> 5000</span> habitantes.
+                                                                     </div>
+                                                                 </section>
+                                                                 <section class="infoNacional">
+                                                                 El promedio nacional es de <span>30</span>
+                                                                 servicios de salud por 300.000 habitantes inscritos en FONASA
+                                                                 </section>
+                                                            </div>
+                                                        </article>
+                                                        </div>
+                                                        
+                                                         <!-- TRANSPARENCIA-->
+                                                        <div>
+                                                          <article>
+                                                             <div class="articulokathe wellKathe">
+                                                                 <header class="tituloCarrusel" id="fondoNaranjo"> <p>ranking del consejo para la transparencia</p></header>
+                                                                 <section>
+                                                                     <div class="epigrafe colorNaranjo"> La Comuna tiene</div>
+                                                                     <br />
+                                                                     <div class="categoria rankingConsejo">  
+                                                                        <span class="numeroGrandeCategoria colorNaranjo"> 10</span> 
+                                                                        <br /> <br /> servicios de salud por cada <span> 5000</span> habitantes.
+                                                                     </div>
+                                                                 </section>
+                                                                 <section class="infoNacional">
+                                                                 El promedio nacional es de <span>30</span>
+                                                                 servicios de salud por 300.000 habitantes inscritos en FONASA
+                                                                 </section>
+                                                            </div>
+                                                        </article>
+                                                        </div>
+                                                        
+                                                         <!-- PARTICIPACION-->
+                                                        <div>
+                                                          <article>
+                                                             <div class="articulokathe wellKathe">
+                                                                 <header class="tituloCarrusel" id="fondoMorado"> <p>ranking del consejo para la transparencia</p></header>
+                                                                 <section>
+                                                                     <div class="epigrafe colorMorado"> La Comuna tiene</div>
+                                                                     <br />
+                                                                     <div class="categoria rankingConsejo">  
+                                                                        <span class="numeroGrandeCategoria colorMorado"> 10</span> 
+                                                                        <br /> <br /> servicios de salud por cada <span> 5000</span> habitantes.
+                                                                     </div>
+                                                                 </section>
+                                                                 <section class="infoNacional">
+                                                                 El promedio nacional es de <span>30</span>
+                                                                 servicios de salud por 300.000 habitantes inscritos en FONASA
+                                                                 </section>
+                                                            </div>
+                                                        </article>
+                                                        </div>
+                                                     
+                                                     <!-- PRESUPUESTO-->
+                                                        <div>
+                                                          <article>
+                                                             <div class="articulokathe wellKathe">
+                                                                 <header class="tituloCarrusel" id="fondoMorado"> <p>ranking del consejo para la transparencia</p></header>
+                                                                 <section>
+                                                                     <div class="epigrafe colorMorado"> La Comuna tiene</div>
+                                                                     <br />
+                                                                     <div class="categoria rankingConsejo">  
+                                                                        <span class="numeroGrandeCategoria colorMorado"> 10</span> 
+                                                                        <br /> <br /> servicios de salud por cada <span> 5000</span> habitantes.
+                                                                     </div>
+                                                                 </section>
+                                                                 <section class="infoNacional">
+                                                                 El promedio nacional es de <span>30</span>
+                                                                 servicios de salud por 300.000 habitantes inscritos en FONASA
+                                                                 </section>
+                                                            </div>
+                                                        </article>
+                                                        </div>
+                                                     
+                                                     
+                                                     
+                                                     
                                                      
                                                       </div>
                                                      
                                                     </div>
                                                      
                                                     <!-- "next page" action -->
-                                                    <a class="next browse right"><img class="flechita" src="images/flechaDerecha.png" /></a>
-                                                    </div>
-                                            ----
-                                                
+                                                    <a class="next browse right"><img id="flechitaDerecha" src="images/flechaDerecha.png" /></a>
+                                                    </div> 
                                            </div>
                     
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
                
               </div>
             </div>
