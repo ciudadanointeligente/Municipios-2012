@@ -50,7 +50,7 @@
 	background-color: #222222;
     border-right: 1px solid white;
     list-style: none outside none;
-    margin: 40px 0 20px auto;
+    margin: 40px 0 0px auto;
     padding-right: 17px;
 	}
 
@@ -116,16 +116,16 @@ this element is the one that *you* will style the most.
 
 #flechitaIzquierda {
 	background-color: #706F6F;
-	padding: 14px 5px;
+	padding: 17px 5px;
 	position: absolute;
 	z-index:1;
-	top:122px;
+	top:165px;
 	}
 	
 #flechitaDerecha {
 	 background-color: #706F6F;
-    bottom: 182px;
-    padding: 14px 5px;
+    bottom: 134px;
+    padding: 17px 5px;
     position: absolute;
     right: 0;
     z-index: 1;
@@ -250,11 +250,11 @@ this element is the one that *you* will style the most.
     font-family: Georgia,"Times New Roman",Times,serif;
     font-size: 14px;
     font-style: italic;
-    margin-left: 0;
+    margin-left: 9px;
     margin-right: 0;
     margin-top: 220px;
     padding-top: 6px;
-    width: 248px;
+    width: 235px;
 	}
 	
 .categoria {
@@ -262,6 +262,27 @@ this element is the one that *you* will style the most.
     font-size: 21px;
     line-height: 25px;
 	margin-left: 10px;
+	}
+	
+	
+.categoriaPobreza {
+	background-image: url(images/pobreza.png);
+	background-repeat:no-repeat;
+	}	
+	
+.categoriaDesigualdad {
+	background-image: url(images/desigualdad.png);
+	background-repeat:no-repeat;
+	}
+
+.categoriaFuncionarios {
+	background-image: url(images/funcionarios.png);
+	background-repeat:no-repeat;
+	}
+	
+.categoriaEducacion {
+	background-image: url(images/educacion.png);
+	background-repeat:no-repeat;
 	}
 	
 .categoriaParticipacion {
@@ -307,7 +328,7 @@ this element is the one that *you* will style the most.
     border: 1px solid #E3E3E3;
     border-radius: 4px 4px 4px 4px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
-    height: 335px;
+    height: 345px;
     margin-bottom: 20px;
     min-height: 20px;
     padding: 18px;
