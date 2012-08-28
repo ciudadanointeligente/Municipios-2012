@@ -9,7 +9,9 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js" type="text/javascript"></script>
+    <script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
     <script src="js/jquery.tools.min.js" language="JavaScript"> </script>
+    <script src="js/jquery.tools.min2.js language="JavaScript"></script>
    
 </head>
 
@@ -26,7 +28,7 @@
                         <ul class="nav">
                         <li><a href="http://www.votainteligente.cl"><img src="images/logoVotaMunicipales.png"></a> </li>
                         <li class="dentroMenu"><a href="#">¿Quiénes Somos?</a></li>
-                        <li class="dentroMenu"><a href="#">Metoodlogía</a></li>
+                        <li class="dentroMenu"><a href="#">Metodología</a></li>
                         <li class="dentroMenu"><a href="#">Candidatos</a></li>
                         <li class="dentroMenu"><form class="navbar-search pull-right">
                             <input type="text" class="search-query" placeholder="Buscar una comuna">
@@ -53,7 +55,7 @@
                                    
                           
                                           <div class="span4">  
-                                                <div class="sidebar-nav">  
+                                                <div class="sidebar-nav sidebarDerecha">  
                                                    <ul class="thumbnails">
                                                         <li class="span6">
                                                             <div class="well thumbnail">
@@ -75,15 +77,40 @@
                                             
                                             <div>
                                              <h4>Los datos de <span>NOMBRE DE LA COMUNA</span> en <span>NOMBRE CATEGORIA </span></h4>
+                                             
+											
+											
+											<script>
+												$(document).ready(function() {
+													// Handler for .ready() called.
+													 $("#dyna img[title]").tooltip({
+											   		offset: [10, 2],
+											  		 effect: 'slide'
+														});
+												});
+											</script>
+											
+											
+											
+																						 
+                                             <div class="navi"> 
+                                           	 <a href="0" class="active"/>
+                                              <a href="1" class=""/>
+                                              <a href="2" class=""/>
+                                              </div>
+                                              
+                                             
+													  
 											  
                                                <script>
 													$(document).ready(function() {
 													  // initialize scrollable
-													  $(".scrollable").scrollable();
+													  $(".scrollable").scrollable({circular: true})/*.autoscroll({ autoplay: false });*/
 													});
 													
 												</script>
-                                             <div class="Carrusel">
+                                            
+											 <div class="Carrusel">
                                                     <!-- "previous page" action -->
                                                     <a class="prev browse left"><img id="flechitaIzquierda" src="images/flechaIzquierda.png" /></a>
                                                      
@@ -94,9 +121,15 @@
                                                       <div class="items">
                                                      
                                                         <!--CARACTERIZACION -->
-                                                        <article>
+                                                      <div>
+													    <article>
                                                              <div class="articulokathe wellKathe">
-                                                                 <header class="tituloCarrusel" id="fondoCeleste"> <p>Pobreza</p></header>
+                                                                 <header class="tituloCarrusel" id="fondoCeleste"> <p>Pobreza</p>
+																 <div class="signoInterrogacion" id="dyna">
+												  				<img src="images/signoInterrogacion.png" title="The tooltip text #1"/>
+												 
+																</div>
+																</header>
                                                                  <section>
                                                                      <div class="epigrafe colorCeleste"> </div>
                                                                      <br />
@@ -111,12 +144,18 @@
                                                                  </section>
                                                             </div>
                                                         </article>
+														</div>
                                                      
                                                         <!--CARACTERIZACION -->
                                                         <div>
                                                           <article>
                                                              <div class="articulokathe wellKathe">
-                                                                 <header class="tituloCarrusel" id="fondoCeleste"> <p>Desigualdad</p></header>
+                                                                 <header class="tituloCarrusel" id="fondoCeleste"> 
+																 <p>Desigualdad</p> 
+																 <div class="signoInterrogacion" id="dyna">
+												  				<img src="images/signoInterrogacion.png" title="The tooltip text #1"/>
+												 				</div>
+																</header>
                                                                  <section>
                                                                      <div class="epigrafe colorCeleste"> </div>
                                                                      <br />
@@ -137,7 +176,9 @@
                                                         <div>
                                                           <article>
                                                              <div class="articulokathe wellKathe">
-                                                                 <header class="tituloCarrusel" id="fondoGris"> <p>Funcionarios</p></header>
+														<header class="tituloCarrusel" id="fondoGris"> <p>Funcionarios</p> 														 <div class="signoInterrogacion" id="dyna">
+														<img src="images/signoInterrogacion.png" title="The tooltip text #1"/>														</div>
+															</header>
                                                                  <section>
                                                                      <div class="epigrafe colorGris"> </div>
                                                                      <br />
@@ -158,7 +199,11 @@
                                                         <div>
                                                           <article>
                                                              <div class="articulokathe wellKathe">
-                                                                 <header class="tituloCarrusel" id="fondoBurdeo"> <p>SIMCE</p></header>
+                                                                 <header class="tituloCarrusel" id="fondoBurdeo"> 
+																 <p>SIMCE</p>
+																 <div class="signoInterrogacion" id="dyna">
+														<img src="images/signoInterrogacion.png" title="The tooltip text #1"/>														</div>
+																 </header>
                                                                  <section>
                                                                      <div class="epigrafe colorBurdeo"></div>
                                                                      <br />
@@ -179,13 +224,17 @@
                                                         <div>
                                                           <article>
                                                              <div class="articulokathe wellKathe">
-                                                                 <header class="tituloCarrusel" id="fondoRojo"> <p>Servicios de salud </p></header>
+                                                                 <header class="tituloCarrusel" id="fondoRojo"> 
+																 <p>Servicios de salud </p>
+																 <div class="signoInterrogacion" id="dyna">
+														<img src="images/signoInterrogacion.png" title="The tooltip text #1"/>														</div>
+																 </header>
                                                                  <section>
                                                                      <div class="epigrafe colorRojo"></div>
                                                                      <br /> 
                                                                      <div class="categoria servicioSalud">  
                                                                         <span class="numeroGrandeCategoria colorRojo"> 10</span> 
-                                                                        <br /> <br /> servicio de salud municipal tiene la comuna cada  <span class="colorRojo"> 3.981 </span> habitantes inscritos en FONASA.
+                                                                        <br /> <br /> servicios de salud municipal tiene la comuna cada  <span class="colorRojo"> 3.981 </span> habitantes inscritos en FONASA.
                                                                      </div>
                                                                  </section>
                                                                  <section class="infoNacional">
@@ -200,11 +249,15 @@
                                                         <div>
                                                           <article>
                                                              <div class="articulokathe wellKathe">
-                                                                 <header class="tituloCarrusel" id="fondoRojo"> <p>Obesidad infantil </p></header>
+                                                                 <header class="tituloCarrusel" id="fondoRojo">
+																  <p>Obesidad infantil </p>
+																  <div class="signoInterrogacion" id="dyna">
+														<img src="images/signoInterrogacion.png" title="The tooltip text #1"/>														</div>
+															</header>
                                                                  <section>
                                                                      <div class="epigrafe colorRojo"> </div>
                                                                      <br />
-                                                                     <div class="categoria servicioSalud">  
+                                                                     <div class="categoria categoriaObesidad">  
                                                                         <span class="numeroGrandeCategoria colorRojo"> 21.5% </span> 
                                                                         <br /> <br /> es el porcentaje de niños de educación básica con obesidad infantil en la comuna. <span></span> 
                                                                      </div>
@@ -220,11 +273,15 @@
                                                         <div>
                                                           <article>
                                                              <div class="articulokathe wellKathe">
-                                                                 <header class="tituloCarrusel" id="fondoRojo"> <p>Obesidad Infantil </p></header>
+                                                                 <header class="tituloCarrusel" id="fondoRojo"> 
+																 <p>Obesidad Infantil </p>
+																 <div class="signoInterrogacion" id="dyna">
+														<img src="images/signoInterrogacion.png" title="The tooltip text #1"/>														</div>
+														</header>
                                                                  <section>
                                                                      <div class="epigrafe colorRojo"> </div>
                                                                      <br />
-                                                                     <div class="categoria servicioSalud">  
+                                                                     <div class="categoria categoriaObesidad">  
                                                                         <span class="numeroGrandeCategoria colorRojo"> 6,52%</span> 
                                                                         <br /> <br /> es el porcentaje de niños de educación media con obesidad infantil en la comuna  <span> </span> 
                                                                      </div>
@@ -243,11 +300,14 @@
                                                         <div>
                                                           <article>
                                                              <div class="articulokathe wellKathe">
-                                                                 <header class="tituloCarrusel" id="fondoAzul"> <p>Variación de delitos con mayor connotación social</p></header>
+                                                                 <header class="tituloCarrusel" id="fondoAzul"> 			 																<p>Variación de delitos con mayor connotación social</p>
+																 <div class="signoInterrogacion" id="dyna">
+														<img src="images/signoInterrogacion.png" title="The tooltip text #1"/>														</div>
+																 </header>
                                                                  <section>
                                                                      <div class="epigrafe colorAzul"></div>
                                                                      <br />
-                                                                     <div class="categoria rankingConsejo">  
+                                                                     <div class="categoria categoriaSeguridad">  
                                                                         <span class="numeroGrandeCategoria colorAzul"> -3,99%</span> 
                                                                         <br /> <br /> Ha variado el número de delitos con mayor connotación social entre el 2007 y el 2010 en la comuna<span>   </span> 
                                                                      </div>
@@ -264,11 +324,14 @@
                                                         <div>
                                                           <article>
                                                              <div class="articulokathe wellKathe">
-                                                                 <header class="tituloCarrusel" id="fondoVerde"> <p>Mantención de áreas <br /> públicas </p></header>
+                                                                 <header class="tituloCarrusel" id="fondoVerde"> 			 													<p>Mantención de áreas <br /> públicas </p>
+																 <div class="signoInterrogacion" id="dyna">
+														<img src="images/signoInterrogacion.png" title="The tooltip text #1"/>														</div>
+																 </header>
                                                                  <section>
                                                                      <div class="epigrafe colorVerde"> </div>
                                                                      <br />
-                                                                     <div class="categoria rankingConsejo">  
+                                                                     <div class="categoria categoriaAreasPublicas">  
                                                                         <span class="numeroGrandeCategoria colorVerde"> 10</span> 
                                                                         <br /> <br /> servicios de salud por cada <span> 5000</span> habitantes.
                                                                      </div>
@@ -285,11 +348,15 @@
                                                         <div>
                                                           <article>
                                                              <div class="articulokathe wellKathe">
-                                                                 <header class="tituloCarrusel" id="fondoNaranjo"> <p>ranking del consejo para la transparencia</p>  </header>                                                                
+                                                                 <header class="tituloCarrusel" id="fondoNaranjo"> 
+																 <p>ranking del consejo para <br />la transparencia</p> 
+																 <div class="signoInterrogacion" id="dyna">
+														<img src="images/signoInterrogacion.png" title="The tooltip text #1"/>														</div>
+																  </header>                                                                
                                                                  <section>
                                                                      <div class="epigrafe colorNaranjo"> </div>
                                                                      <br />
-                                                                     <div class="categoria rankingConsejo">  
+                                                                     <div class="categoria categoriaRanking">  
                                                                         <span class="numeroGrandeCategoria colorNaranjo"> 10</span> 
                                                                         <br /> <br /> servicios de salud por cada <span> 5000</span> habitantes.
                                                                      </div>
@@ -306,11 +373,15 @@
                                                         <div>
                                                           <article>
                                                              <div class="articulokathe wellKathe">
-                                                                 <header class="tituloCarrusel" id="fondoMorado"> <p>Organizaciones <br /> comunitarias </p></header>
+                                                                 <header class="tituloCarrusel" id="fondoMorado"> 
+																 <p>Organizaciones <br /> comunitarias </p>
+																 <div class="signoInterrogacion" id="dyna">
+														<img src="images/signoInterrogacion.png" title="The tooltip text #1"/>														</div>
+																 </header>
                                                                  <section>
                                                                      <div class="epigrafe colorMorado"> </div>
                                                                      <br />
-                                                                     <div class="categoria rankingConsejo">  
+                                                                     <div class="categoria categoriaOrganizaciones">  
                                                                         <span class="numeroGrandeCategoria colorMorado"> 220</span> 
                                                                         <br /> <br />  	habitantes en la comuna hay por cada organización comunitaria  <span> </span>
                                                                      </div>
@@ -327,11 +398,15 @@
                                                         <div>
                                                           <article>
                                                              <div class="articulokathe wellKathe">
-                                                                 <header class="tituloCarrusel" id="fondoMorado"> <p> Semáforos Contraloría </p></header>
+                                                                 <header class="tituloCarrusel" id="fondoMorado"> 
+																 <p> Semáforos Contraloría </p>
+																 <div class="signoInterrogacion" id="dyna">
+														<img src="images/signoInterrogacion.png" title="The tooltip text #1"/>														</div>
+																 </header>
                                                                  <section>
                                                                      <div class="epigrafe colorMorado"> </div>
                                                                      <br />
-                                                                     <div class="categoria rankingConsejo">  
+                                                                     <div class="categoria categoriaSemaforoRojo">  
                                                                         <span class="numeroGrandeCategoria colorMorado"> 10</span> 
                                                                         <br /> <br /> servicios de salud por cada <span> 5000</span> habitantes.
                                                                      </div>
@@ -354,6 +429,7 @@
                                                      
                                                     <!-- "next page" action -->
                                                     <a class="next browse right"><img id="flechitaDerecha" src="images/flechaDerecha.png" /></a>
+                                                    
                                                     </div> 
                                            </div>
                     
