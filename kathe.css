@@ -521,3 +521,13 @@ this element is the one that *you* will style the most.
 .primerTabSubMenu {
 	width:400px;
 	}
+	
+/*--------BUSCADOR COMUNAS----- */
+.btn-menuComunas {
+	float: right;
+    position: absolute;
+    right: 470px;
+    top: 418px;
+    z-index: 2;
+
+	}
