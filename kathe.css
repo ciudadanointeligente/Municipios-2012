@@ -14,13 +14,17 @@
 
 /* CSS Document */
 
-/*-----HOME y municipalidades -----------*/
+/*-----HOME  -----------*/
 .buscadorPpal {
 	background-color: #EEEEEE;
     border-radius: 6px 6px 6px 6px;
     margin-bottom: 30px;
     padding: 60px;
 	margin-top:120px;
+	}
+	
+.menuPpal {
+	width:940px;
 	}
 	
 .subTitulosHome {
@@ -76,11 +80,22 @@
 .flotarIzq{
 	float:left;
 	}
+	
+/* -------- MUNICIPALIDADES ---------- */	
+
+.tuComunaDatos {
+	margin-top:30px;
+	}
 
 .signoInterrogacion {
     position: absolute;
     z-index: 1;
 	top: 78px;
+	}
+	
+.signoInterrogacion:hover {
+	box-shadow:#FFF;
+	background-color:red;
 	}
 	
 .items div .signoInterrogacion {
@@ -90,9 +105,7 @@
     right: 4px;
     top: 30px;
 }
-.signoInterrogacion:hover {
-	box-shadow:#FFF;
-	}
+
 	
 
 	
@@ -146,17 +159,17 @@ this element is the one that *you* will style the most.
 
 
 /* position and dimensions of the navigator */
-.navi {
-    height: 20px;
-    margin-left: 328px;
-    position: absolute;
-    right: 576px;
-    top: 769px;
-    width: 200px;
-}
- 
 
-/* items inside navigator */
+.navi {
+   	height: 20px;
+    position: absolute;
+    right: 381px;
+    top: 788px;
+    width: 400px;
+	z-index:2;
+}
+
+
 .navi a {
     width:8px;
     height:8px;
@@ -164,23 +177,54 @@ this element is the one that *you* will style the most.
     margin:3px;
     display:block;
     font-size:1px;
-	background-color: red;
+	border-radius:4px 4px 4px 4px;
+	
 }
  
-/* mouseover state */
 .navi a:hover {
     background-position:0 -8px;
 }
  
-/* active state (current page state) */
+
 .navi a.active {
     background-position:0 -16px;
 }
 
+.naviColorCeleste {
+	background-color:#61C0DC;
+	}
+	
+.naviColorGris{
+	background-color:#6F7375;
+	}
+	
+.naviColorBurdeo {
+	background-color:#CD627D;
+	}
+	
+.naviColorRojo{
+	background-color:#E9605E;
+	}
+	
+.naviColorAzul {
+	background-color:#2089C8;
+	}
 
+.naviColorVerde {
+	background-color:#6CB667;
+	}
+	
+.naviColorNaranjo {
+	background-color:#F8B35C;
+	}
+	
+.naviColorMorado{
+	background-color:#A38FC1;
+	}
 
-
-
+.naviColorAmarillo {
+	background-color:#FFE578;
+	}
 
 
 
@@ -340,9 +384,11 @@ this element is the one that *you* will style the most.
 .categoria {
 	font-family: 'bebas_neueregular';
     font-size: 21px;
-    line-height: 25px;
+    line-height: 26px;
 	margin-left: 10px;
 	width:240px;
+	 position: absolute;
+    top: 97px;
 	}
 	
 	
@@ -451,7 +497,7 @@ this element is the one that *you* will style the most.
     border: 1px solid #E3E3E3;
     border-radius: 4px 4px 4px 4px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
-    height: 345px;
+    height: 350px;
     margin-bottom: 20px;
     min-height: 20px;
     padding: 18px;
@@ -464,7 +510,14 @@ this element is the one that *you* will style the most.
 
 .paginaCompleta {
 	clear:both;
-	 margin-right: auto;
-	  margin-left: auto;
-	  *zoom: 1;
+	margin-left:24%;
+	margin-top:130px;
+	}
+	
+.subMenu {
+	margin-top:87px;
+	}
+
+.primerTabSubMenu {
+	width:400px;
 	}
