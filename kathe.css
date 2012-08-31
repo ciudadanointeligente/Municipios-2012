@@ -94,8 +94,8 @@
 	}
 	
 .signoInterrogacion:hover {
-	box-shadow:#FFF;
-	background-color:red;
+	cursor:pointer;
+	
 	}
 	
 .items div .signoInterrogacion {
@@ -511,7 +511,7 @@ this element is the one that *you* will style the most.
 .paginaCompleta {
 	clear:both;
 	margin-left:24%;
-	margin-top:130px;
+	margin-top:160px;
 	}
 	
 .subMenu {
@@ -530,4 +530,11 @@ this element is the one that *you* will style the most.
     top: 418px;
     z-index: 2;
 
+	}
+
+/*-------- METODOLOGIA---------*/
+.sangriaIzquierda {
+	 height: 41px;
+    line-height: 57px;
+    padding-left: 78px;
 	}
