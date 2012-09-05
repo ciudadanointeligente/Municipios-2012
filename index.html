@@ -9,6 +9,9 @@
     <link href="kathe.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
+    <script src="js/jquery.tools.min.js" language="JavaScript"> </script>
     </head>
     
     
@@ -36,34 +39,60 @@
           
           
          
+           
+         
          <div class="container">  	
-                <div class="buscadorPpal"><h3> <center>Conoce a tus candidatos y elige a tu media naranja </center></h3>
+                
+                    
+                
+                
+                <div class="buscadorPpal">
+                
+                <h3> <center>Conoce a tus candidatos y elige a tu media naranja </center></h3>
                 <center><form class="form-search"> <p> Escribe el nombre de la comuna que te interesa</p>
                 <input type="text" class="input-xxlarge search-query"> 
                 <button type="submit" class="btn">Buscar</button>
                 </form> </center> </div> 
-        </div>
+        
+         <div class=" alertaVota alert fade in">
+                        <button class="close" data-dismiss="alert" type="button"> × </button>
+                        	<a class="close" data-dismiss="alert" href="https://www.accesointeligente.org/AccesoInteligente/#home" target="_blank"> <img src="./images/logoVota.png"/>  ¿Andas en busca de nuestro Vota Inteligente? Encuéntralo aquí! <img src="./images/logoVota.png"/>&nbsp; &nbsp;</a>
+                        </div>
+       
+           
+     
+          
     	
     	<div class="container">
          <div class="row">
-                <div class="span6">
-                <h5 class="subTitulosHome">Info Municipal</h5>
-				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                <div class="span6 subTitulosHomeInfo">
+                <button class="btn btn-block btn-inverse"> <a href="#">Info Municipal <img src="./images/iconoInfoHome.png" style="float: right;"/> </a></button>
+                <br/>
+				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p> 
 				</div>
+               
                 
-                <div class="span3">
-                <h5 class="subTitulosHome">Preguntar</h5>
+                <div class="span3 subTitulosHomePreguntar">
+                
+                <button class="btn btn-block btn-inverse"> <a href="#"> Preguntar<img src="./images/iconoPregunta2.png" style="float: right;"/> </a></button>
+                <br/>
+				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                </div>
+              
+                
+                <div class="span3 subTitulosHomeReportar"> 
+                <button class="btn btn-block btn-inverse"> <a href="#"> Reportar<img src="./images/iconoReporta.png" style="float: right;"/> </a></button>
+                <br/>
 				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
                 </div>
                 
-                <div class="span3">
-                <h5 class="subTitulosHome">Reportar</h5>
-				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                </div>
          </div>
         </div>
         
-        <div class="container">
+        <br/>
+        <br />
+        
+       <!-- <div class="container">
          <div class="row">
                 <div class="span6">
                 <h5>Video 1</h5>
@@ -73,9 +102,10 @@
                 <h5>Video 2</h5>
 				<img src="images/ejemplo-video.png" /> 
 				</div>
-        </div>
-       </div>
+        </div> -->
         
+       </div>
+        </div>
         
         
         
@@ -109,7 +139,7 @@
 	
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 	<script src="bootstrap/js/bootstrap.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
    	
     
 </body>

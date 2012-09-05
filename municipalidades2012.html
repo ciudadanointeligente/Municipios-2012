@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
 <head>
-    <title>Municipalidades 2012</title>
+    <title>Municipalidades2012</title>
     <!-- Bootstrap -->
     <link href="kathe.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -83,7 +83,7 @@
                                                 </div>
                                             
                                             
-                                            <div>
+                                            <div style="margin-top: -10px;">
                                              <h4>Los datos de <span>NOMBRE DE LA COMUNA</span> en <span>NOMBRE CATEGORIA </span></h4>
                                              
 											
@@ -109,30 +109,29 @@
 											
 										
 																						 
-                                            <!--<div id="thumbs" class="t"> -->
+                                            
 											 <div class="navi"> 
-                                              <a  href="1" rel="tooltip" title="Caracterización" class="naviColorCeleste active"/>
-                                              <a href="2" rel="tooltip" title="Caracterización" class="naviColorCeleste"/>
-                                              <a href="3" rel="tooltip" title="Administración" class="naviColorGris"/>
-                                              <a href="4" rel="tooltip" title="Educación" class="naviColorBurdeo"/>
-                                              <a href="5" rel="tooltip" title="Salud" class="naviColorRojo"/>
-                                              <a href="6" rel="tooltip" title="Salud" class="naviColorRojo"/>
-                                              <a href="7" rel="tooltip" title="Salud" class="naviColorRojo"/>
-                                              <a href="8" rel="tooltip" title="Seguridad" class="naviColorAzul"/>
-                                              <a href="9" rel="tooltip" title="Urbanismo" class="naviColorVerde"/>
-                                              <a href="10" rel="tooltip" title="Transparencia" class="naviColorNaranjo"/>
-                                              <a href="11" rel="tooltip" title="Participación Ciudadana" class="naviColorMorado"/>
-                                              <a href="12" rel="tooltip" title="Presupuesto" class="naviColorMorado"/>
-                                              
+                                              <a  href="1" rel="tooltip" title="Área: Caracterización"</a>
+                                              <a href="2" rel="tooltip" title="Área: Caracterización" />
+                                              <a href="3" rel="tooltip" title="Área: Administración" />
+                                              <a href="4" rel="tooltip" title="Área: Educación"/>
+                                              <a href="5" rel="tooltip" title="Área: Salud" />
+                                              <a href="6" rel="tooltip" title="Área: Salud" />
+                                              <a href="7" rel="tooltip" title="Área: Salud" />
+                                              <a href="8" rel="tooltip" title="Área: Seguridad" />
+                                              <a href="9" rel="tooltip" title="Área: Urbanismo" />
+                                              <a href="10" rel="tooltip" title="Área: Transparencia" />
+                                              <a href="11" rel="tooltip" title="Área: Participación Ciudadana"/>
+                                              <a href="12" rel="tooltip" title="Área: Presupuesto" />
                                               </div> 
-                                              </div>
                                               
-													  
+												<!--<div class="navi"> 
+                                                    </div>	  -->
 											  
                                                <script>
 													$(document).ready(function() {
 													  // initialize scrollable
-													  $(".scrollable").scrollable({circular: true}).autoscroll({ autoplay: false });
+													  $(".scrollable").scrollable({circular: true}).autoscroll({ autoplay: true }).navigator(".navi");
 													});
 													
 												</script>
@@ -143,6 +142,8 @@
                                                      
                                                     <!-- root element for scrollable -->
                                                     <div class="scrollable" id="scrollable">
+                                                    
+                                                    
                                                      
                                                       <!-- root element for the items -->
                                                       <div class="items">
@@ -151,42 +152,43 @@
                                                       <div>
 													    <article>
                                                              <div class="articulokathe wellKathe">
-                                                                 <header class="tituloCarrusel" id="fondoCeleste"> <p>Pobreza</p>
-																 <div class="signoInterrogacion" id="dyna">
-												  				<a href="http://file:///Volumes/Macintosh%20HD/Users/katherinamalis/Documents/workspace/Municipios-2012/Metodologia.html#FCM"><img src="images/signoInterrogacion.png" title="¿Cómo se calculó?"/> 
-                                                                </a>
-																</div>
-                                                                
+                                                                 <header class="tituloCarrusel" id="fondoCeleste"> 
+                                                                     <p>Pobreza</p>
+                                                                     <div class="signoInterrogacion" id="dyna">
+                                                                     <a href="./metodologia.html#Pobreza"><img src="images/signoInterrogacion.png" title="¿Cómo se calculó?"/> </a>
+                                                                     </div>
 																</header>
-                                                                 <section id="tools">
+                                                                <section>
                                                                      <div class="epigrafe colorCeleste"> </div>
                                                                      <br />
                                                                      <div class="categoria categoriaPobreza">  
                                                                         <span class="numeroGrandeCategoria colorCeleste"> 7%</span> 
                                                                         <br /> <br />
-                                                                       de los habitantes de la comuna son pobres. Esto es similar a los que pasa en  <span class="colorCeleste">Tumbuctú </span>
+                                                                       de los habitantes de la comuna son pobres. Esto es similar a los que pasa en  <span class="colorCeleste">Tumbuctú 		 																		</span>
                                                                      </div>
                                                                  </section>
                                                                  <section class="infoNacional">
                                                                  </span>
                                                                  </section>
                                                             </div>
+                                                            
                                                         </article>
-														</div>
+													</div>
                                                      
                                                         <!--CARACTERIZACION -->
-                                                        <div id="tools">
+                                                        <div>
                                                           <article>
                                                              <div class="articulokathe wellKathe">
                                                                  <header class="tituloCarrusel" id="fondoCeleste"> 
-																 <p>Desigualdad</p> 
-																  <div class="signoInterrogacion">
-												  				<a href="#"><img src="images/signoInterrogacion.png" /> 
-                                                                </a>
-																</div>
+                                                                     <p>Desigualdad</p> 
+                                                                     <div class="signoInterrogacion" id="dyna">
+                                                                     <a href="#"><img src="images/signoInterrogacion.png" title="¿Cómo se calculó?"/> 
+                                                                     </a>
+                                                                     </div>
 																</header>
                                                                  <section>
-                                                                     <div class="epigrafe colorCeleste"> </div>
+                                                                     <div class="epigrafe colorCeleste"> 
+                                                                     </div>
                                                                      <br />
                                                                      <div class="categoria categoriaDesigualdad">  
                                                                         <span class="numeroGrandeCategoria colorCeleste"> 20º</span> 
@@ -195,23 +197,22 @@
                                                                  </section>
                                                                  <section class="infoNacional">
                                                                  El coeficiente de Gini (desigualdad) de la comuna es similar al de  <span class="colorCeleste">Nombre país </span>
-                                                                
                                                                  </section>
                                                             </div>
                                                         </article>
-                                                        </div>
+                                                      </div>
                                                      
                                                         <!-- ADMINISTRACION-->
                                                         <div>
                                                           <article>
                                                              <div class="articulokathe wellKathe">
-														<header class="tituloCarrusel" id="fondoGris"> <p>Funcionarios</p> 														  <div class="signoInterrogacion">
-												  				<a href="#"><img src="images/signoInterrogacion.png" /> 
-                                                                </a>
-																</div>
-															</header>
-                                                                 <section>
-                                                                     <div class="epigrafe colorGris"> </div>
+																<header class="tituloCarrusel" id="fondoGris"> <p>Funcionarios</p> 														  																	<div class="signoInterrogacion" id="dyna">
+												  					<a href="./metodologia.html#Funcionarios"><img src="images/signoInterrogacion.png" title="¿Cómo se calculó?"/> </a>
+																	</div>
+																</header>
+                                                                <section>
+                                                                     <div class="epigrafe colorGris"> 
+                                                                     </div>
                                                                      <br />
                                                                      <div class="categoria categoriaFuncionarios">  
                                                                         <span class="numeroGrandeCategoria colorGris"> 1</span> 
@@ -224,18 +225,18 @@
                                                                  </section>
                                                             </div>
                                                         </article>
-                                                        </div>
+                                                      </div>
                                                      
                                                       <!-- EDUCACION-->
                                                         <div>
                                                           <article>
                                                              <div class="articulokathe wellKathe">
                                                                  <header class="tituloCarrusel" id="fondoBurdeo"> 
-																 <p>SIMCE</p>
-																  <div class="signoInterrogacion">
-												  				<a href="#"><img src="images/signoInterrogacion.png" /> 
-                                                                </a>
-																</div>
+																 	<p>SIMCE</p>
+																   	<div class="signoInterrogacion" id="dyna">
+												  					<a href="#"><img src="images/signoInterrogacion.png" title="¿Cómo se calculó?"/> 
+                                                                	</a>
+																	</div>
 																 </header>
                                                                  <section>
                                                                      <div class="epigrafe colorBurdeo"></div>
@@ -247,25 +248,25 @@
                                                                  </section>
                                                                  <section class="infoNacional">
                                                                  El nivel SIMCE de la comuna, en relación al resto del país, ha sido  <span class="colorBurdeo">Medio </span>
-                                                               
                                                                  </section>
                                                             </div>
                                                         </article>
-                                                        </div>
+                                                     </div>
                                                         
                                                          <!-- SALUD-->
                                                         <div>
                                                           <article>
                                                              <div class="articulokathe wellKathe">
                                                                  <header class="tituloCarrusel" id="fondoRojo"> 
-																 <p>Servicios de salud </p>
-																  <div class="signoInterrogacion">
-												  				<a href="#"><img src="images/signoInterrogacion.png" /> 
-                                                                </a>
-																</div>
+																 	<p>Servicios de salud </p>
+																  	<div class="signoInterrogacion" id="dyna">
+												  						<a href="#"><img src="images/signoInterrogacion.png" title="¿Cómo se calculó?"/> 
+                                                                		</a>
+																	</div>
 																 </header>
                                                                  <section>
-                                                                     <div class="epigrafe colorRojo"></div>
+                                                                     <div class="epigrafe colorRojo">
+                                                                     </div>
                                                                      <br /> 
                                                                      <div class="categoria servicioSalud">  
                                                                         <span class="numeroGrandeCategoria colorRojo"> 10</span> 
@@ -278,21 +279,22 @@
                                                                  </section>
                                                             </div>
                                                         </article>
-                                                        </div>
+                                                     </div>
                                                         
                                                         <!-- SALUD-->
                                                         <div>
                                                           <article>
                                                              <div class="articulokathe wellKathe">
                                                                  <header class="tituloCarrusel" id="fondoRojo">
-																  <p>Obesidad infantil </p>
-																   <div class="signoInterrogacion">
-												  				<a href="#"><img src="images/signoInterrogacion.png" /> 
-                                                                </a>
-																</div>
-															</header>
-                                                                 <section>
-                                                                     <div class="epigrafe colorRojo"> </div>
+																  	<p>Obesidad infantil </p>
+																   	<div class="signoInterrogacion" id="dyna">
+												  						<a href="#"><img src="images/signoInterrogacion.png" title="¿Cómo se calculó?"/> 
+                                                                		</a>
+																	</div>
+																</header>
+                                                                <section>
+                                                                     <div class="epigrafe colorRojo"> 
+                                                                     </div>
                                                                      <br />
                                                                      <div class="categoria categoriaObesidad">  
                                                                         <span class="numeroGrandeCategoria colorRojo"> 21.5% </span> 
@@ -304,21 +306,22 @@
                                                                  </section>
                                                             </div>
                                                         </article>
-                                                        </div>
+                                                     </div>
                                                         
                                                         <!-- SALUD-->
                                                         <div>
                                                           <article>
                                                              <div class="articulokathe wellKathe">
                                                                  <header class="tituloCarrusel" id="fondoRojo"> 
-																 <p>Obesidad Infantil </p>
-																  <div class="signoInterrogacion">
-												  				<a href="#"><img src="images/signoInterrogacion.png" /> 
-                                                                </a>
-																</div>
-														</header>
+																 	<p>Obesidad Infantil </p>
+																  	<div class="signoInterrogacion" id="dyna">
+												  						<a href="#"><img src="images/signoInterrogacion.png" title="¿Cómo se calculó?"/> 
+                                                                		</a>
+																	</div>
+																</header>
                                                                  <section>
-                                                                     <div class="epigrafe colorRojo"> </div>
+                                                                     <div class="epigrafe colorRojo"> 
+                                                                     </div>
                                                                      <br />
                                                                      <div class="categoria categoriaObesidad">  
                                                                         <span class="numeroGrandeCategoria colorRojo"> 6,52%</span> 
@@ -327,11 +330,10 @@
                                                                  </section>
                                                                  <section class="infoNacional">
                                                                 En el ranking de obesidad infantil de niños de educación media la comuna está en el lugar  <span class="colorRojo">220 </span>
-                                                                
-                                                                 </section>
+                                                                </section>
                                                             </div>
                                                         </article>
-                                                        </div>
+                                                     </div>
                                                         
                                                         
                                                         
@@ -339,14 +341,15 @@
                                                         <div>
                                                           <article>
                                                              <div class="articulokathe wellKathe">
-                                                                 <header class="tituloCarrusel" id="fondoAzul"> 			 																<p>Variación de delitos con mayor connotación social</p>
-																  <div class="signoInterrogacion">
-												  				<a href="#"><img src="images/signoInterrogacion.png" /> 
-                                                                </a>
-																</div>
+                                                                 <header class="tituloCarrusel" id="fondoAzul"> 			 																						 																	<p>Variación de delitos con mayor connotación social</p>
+																   	<div class="signoInterrogacion" id="dyna">
+												  						<a href="#"><img src="images/signoInterrogacion.png" title="¿Cómo se calculó?"/> 
+                                                                		</a>
+																	</div>
 																 </header>
                                                                  <section>
-                                                                     <div class="epigrafe colorAzul"></div>
+                                                                     <div class="epigrafe colorAzul">
+                                                                     </div>
                                                                      <br />
                                                                      <div class="categoria categoriaSeguridad">  
                                                                         <span class="numeroGrandeCategoria colorAzul"> -3,99%</span> 
@@ -355,24 +358,25 @@
                                                                  </section>
                                                                  <section class="infoNacional">
                                                                  En el ranking de variación de delitos con mayor connotación social la comuna está en el lugar  <span class="numeroInfoNacional colorAzul">92 </span>
-
-                                                                 </section>
+																 </section>
                                                             </div>
                                                         </article>
-                                                        </div>
+                                                     </div>
                                                         
                                                         <!-- URBANISMO-->
                                                         <div>
                                                           <article>
                                                              <div class="articulokathe wellKathe">
-                                                                 <header class="tituloCarrusel" id="fondoVerde"> 			 													<p>Mantención de áreas <br /> públicas </p>
-																  <div class="signoInterrogacion">
-												  				<a href="#"><img src="images/signoInterrogacion.png" /> 
-                                                                </a>
-																</div>
+                                                                 <header class="tituloCarrusel" id="fondoVerde"> 			 													
+                                                                 	<p>Mantención de áreas <br /> públicas </p>
+																  	<div class="signoInterrogacion" id="dyna">
+												  						<a href="#"><img src="images/signoInterrogacion.png" title="¿Cómo se calculó?"/> 
+                                                                		</a>
+																	</div>
 																 </header>
                                                                  <section>
-                                                                     <div class="epigrafe colorVerde"> </div>
+                                                                     <div class="epigrafe colorVerde"> 
+                                                                     </div>
                                                                      <br />
                                                                      <div class="categoria categoriaAreasPublicas">  
                                                                         <span class="numeroGrandeCategoria colorVerde"> 10</span> 
@@ -385,21 +389,22 @@
                                                                  </section>
                                                             </div>
                                                         </article>
-                                                        </div>
+                                                     </div>
                                                         
                                                          <!-- TRANSPARENCIA-->
                                                         <div>
                                                           <article>
                                                              <div class="articulokathe wellKathe">
                                                                  <header class="tituloCarrusel" id="fondoNaranjo"> 
-																 <p>ranking del consejo para <br />la transparencia</p> 
-																  <div class="signoInterrogacion">
-												  				<a href="#"><img src="images/signoInterrogacion.png" /> 
-                                                                </a>
-																</div>
+																 	<p>ranking del consejo para <br />la transparencia</p> 
+																  	<div class="signoInterrogacion" id="dyna">
+												  						<a href="#"><img src="images/signoInterrogacion.png" title="¿Cómo se calculó?"/> 
+                                                                		</a>
+																	</div>
 																  </header>                                                                
                                                                  <section>
-                                                                     <div class="epigrafe colorNaranjo"> </div>
+                                                                     <div class="epigrafe colorNaranjo"> 
+                                                                     </div>
                                                                      <br />
                                                                      <div class="categoria categoriaRanking">  
                                                                         <span class="numeroGrandeCategoria colorNaranjo"> 10</span> 
@@ -412,21 +417,22 @@
                                                                  </section>
                                                             </div>
                                                         </article>
-                                                        </div>
+                                                     </div>
                                                         
                                                          <!-- PARTICIPACION-->
                                                         <div>
                                                           <article>
                                                              <div class="articulokathe wellKathe">
                                                                  <header class="tituloCarrusel" id="fondoMorado"> 
-																 <p>Organizaciones <br /> comunitarias </p>
-																  <div class="signoInterrogacion">
-												  				<a href="#"><img src="images/signoInterrogacion.png" /> 
-                                                                </a>
-																</div>
+																 	<p>Organizaciones <br /> comunitarias </p>
+																 	<div class="signoInterrogacion" id="dyna">
+												  						<a href="#"><img src="images/signoInterrogacion.png" title="¿Cómo se calculó?"/> 
+                                                                		</a>
+																	</div>
 																 </header>
                                                                  <section>
-                                                                     <div class="epigrafe colorMorado"> </div>
+                                                                     <div class="epigrafe colorMorado"> 
+                                                                     </div>
                                                                      <br />
                                                                      <div class="categoria categoriaOrganizaciones">  
                                                                         <span class="numeroGrandeCategoria colorMorado"> 220</span> 
@@ -439,21 +445,22 @@
                                                                  </section>
                                                             </div>
                                                         </article>
-                                                        </div>
+                                                     </div>
                                                      
                                                      <!-- PRESUPUESTO-->
                                                         <div>
                                                           <article>
                                                              <div class="articulokathe wellKathe">
                                                                  <header class="tituloCarrusel" id="fondoMorado"> 
-																 <p> Semáforos Contraloría </p>
-																  <div class="signoInterrogacion">
-												  				<a href="#"><img src="images/signoInterrogacion.png" /> 
-                                                                </a>
-																</div>
+																 	<p> Semáforos Contraloría </p>
+																  	<div class="signoInterrogacion" id="dyna">
+												  					<a href="#"><img src="images/signoInterrogacion.png" title="¿Cómo se calculó?"/> 
+                                                               		</a>
+																	</div>
 																 </header>
                                                                  <section>
-                                                                     <div class="epigrafe colorMorado"> </div>
+                                                                     <div class="epigrafe colorMorado"> 
+                                                                     </div>
                                                                      <br />
                                                                      <div class="categoria categoriaSemaforoRojo">  
                                                                         <span class="numeroGrandeCategoria colorMorado"> 10</span> 
@@ -466,7 +473,7 @@
                                                                  </section>
                                                             </div>
                                                         </article>
-                                                        </div>
+                                                    </div>
                                                      
                                                      
                                                      

@@ -27,11 +27,61 @@
 	width:940px;
 	}
 	
-.subTitulosHome {
+.subTitulosHome{
 	background-color:#9D9D9C;
 	color:white;
 	padding: 10px;
+	border-radius: 5px;
 	}
+	
+.bannerVota {
+	background-color:#C9C9C9;
+	padding:7px;
+	width:auto;
+	clear:both;
+	border-radius: 5px;
+	}	
+	
+.bannerVotaTexto {
+	background-color: #C9C9C9;
+	padding:7px;
+	border-radius: 5px;}
+	
+	
+.alertaVota {
+	min-height:22px;
+	
+	}
+	
+
+	
+	
+	
+	
+	
+	
+/*	
+.subTitulosHomeInfo {
+	background-image: url(./images/iconoInfoHome.png);
+	background-repeat:no-repeat;
+	float:right;
+	z-index:2;
+	}
+	
+	
+.subTitulosHomePreguntar {
+	background-image: url(./images/preguntar.png);
+	background-repeat:no-repeat;
+	float:right;
+	z-index:2;
+	}
+	
+.subTitulosHomeReportar {
+	background-image: url(./images/reportar.png);
+	background-repeat:no-repeat;
+	float:right;
+	z-index:2;
+	} */
 
 .dentroMenu {
 	margin-top:46px;
@@ -106,14 +156,230 @@
     top: 30px;
 }
 
+.infoCompletaMunicipalidades{
+	top: 300px;
+	height: 350px;
+	float:left;
+	}
 	
+
+
+.infoCompletaMunicipalidades  .articulokathe {
+	width:220px;
+}
+	
+.infoCompletaMunicipalidades .categoria {
+	margin-left: 0;
+    position: relative;
+	margin-top: -77px;
+	}
+	
+.fondoTitulosh4 {
+    border-radius: 4px 4px 4px 4px;
+    color: white;
+    margin-left: 21px;
+    padding-bottom: 7px;
+    padding-left: 26px;
+    padding-top: 7px;
+	}
+	
+.infoCompletaMunicipalidades .infoNacional {
+	margin-top: 150px;
+	}
+
+
+/* Celeste */
+.wellCaracterizacion {
+	background-color: #61C0DC;
+	  min-height: 20px;
+   	padding-bottom: 0;
+    padding-left: 28px;
+    padding-top: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+		  color:white;
+		  font-family: 'bebas_neueregular';
+    font-size: 26px;
+}
+
+	
+/* Gris */	
+
+.wellAdministracion {
+	background-color: #6F7375;
+	  min-height: 20px;
+   	padding-bottom: 0;
+    padding-left: 28px;
+    padding-top: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+		  color:white;
+		  font-family: 'bebas_neueregular';
+    font-size: 26px;
+}
+	
+/*Burdeo */
+
+.wellEducacion {
+	background-color: #CD627D;
+	  min-height: 20px;
+   	padding-bottom: 0;
+    padding-left: 28px;
+    padding-top: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+		  color:white;
+		  font-family: 'bebas_neueregular';
+    font-size: 26px;
+}
+
+
+/* Rojo */
+
+.wellSalud {
+	background-color: #E9605E;
+	   min-height: 20px;
+   	padding-bottom: 0;
+    padding-left: 28px;
+    padding-top: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+		  color:white;
+		  font-family: 'bebas_neueregular';
+    font-size: 26px;
+}
+
+	
+/* Azul */
+
+.wellSeguridad {
+	background-color: #2089C8;
+	   min-height: 20px;
+   	padding-bottom: 0;
+    padding-left: 28px;
+    padding-top: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+		  color:white;
+		  font-family: 'bebas_neueregular';
+    font-size: 26px;
+}
+	
+/* VErde */
+
+.wellUrbanismo {
+	background-color: #6CB667;
+	   min-height: 20px;
+   	padding-bottom: 0;
+    padding-left: 28px;
+    padding-top: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+		  color:white;
+		  font-family: 'bebas_neueregular';
+    font-size: 26px;
+}
+
+
+/* Naranjo */
+
+.wellTransparencia {
+	background-color: #F8B35C;
+	   min-height: 20px;
+   	padding-bottom: 0;
+    padding-left: 28px;
+    padding-top: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+		  color:white;
+		  font-family: 'bebas_neueregular';
+    font-size: 26px;
+}
+
+
+/* Morado */ 
+
+.wellParticipacion {
+	background-color: #A38FC1;
+	   min-height: 20px;
+   	padding-bottom: 0;
+    padding-left: 28px;
+    padding-top: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+		  color:white;
+		  font-family: 'bebas_neueregular';
+    font-size: 26px;
+}
+
+
+
+
+/* Amarillo 
+
+.fondoTitulosh4Presupuesto {
+	background-color: #FFE578;
+}*/
 
 	
 	
-	
-	
-	
-	
+.infoCompletaMunicipalidades .tituloCarrusel {
+	color: white;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+	min-height: 72px;
+	width: 279px;
+	}	
 	
 /*------slider----*/
 /* override the arrow image of the tooltip */
@@ -161,12 +427,14 @@ this element is the one that *you* will style the most.
 /* position and dimensions of the navigator */
 
 .navi {
-   	height: 20px;
-    position: absolute;
-    right: 381px;
-    top: 788px;
+   	bottom: 0;
+    height: 20px;
+    left: -3px;
+    position: relative;
+    right: 3px;
+    top: 417px;
     width: 400px;
-	z-index:2;
+    z-index: 1;
 }
 
 
@@ -178,6 +446,7 @@ this element is the one that *you* will style the most.
     display:block;
     font-size:1px;
 	border-radius:4px 4px 4px 4px;
+	z-index:2;
 	
 }
  
@@ -190,41 +459,76 @@ this element is the one that *you* will style the most.
     background-position:0 -16px;
 }
 
-.naviColorCeleste {
+div.navi a.active {
+	width: 8px;
+	height: 8px;
+	border-radius: 8px 8px 8px 8px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #CCC;
+	z-index:-2;
+	-moz-box-shadow: 0 0 0 16px rgba(0, 0, 0, 0.3) inset;
+	}
+	
+
+
+/* Celeste */
+.navi a:nth-child(n+1)  {
+	background-color:#61C0DC;
+	}
+.navi a:nth-child(n+2)  {
 	background-color:#61C0DC;
 	}
 	
-.naviColorGris{
+/* Gris */	
+.navi a:nth-child(n+3) {
 	background-color:#6F7375;
 	}
 	
-.naviColorBurdeo {
+/*Burdeo */
+.navi a:nth-child(n+4) {
 	background-color:#CD627D;
 	}
 	
-.naviColorRojo{
+/* Rojo */
+.navi a:nth-child(n+5){
+	background-color:#E9605E;
+	}
+.navi a:nth-child(n+6){
+	background-color:#E9605E;
+	}
+.navi a:nth-child(n+7){
 	background-color:#E9605E;
 	}
 	
-.naviColorAzul {
+/* Azul */
+.navi a:nth-child(n+8) {
 	background-color:#2089C8;
 	}
+/* VErde */
 
-.naviColorVerde {
+.navi a:nth-child(n+9) {
 	background-color:#6CB667;
 	}
 	
-.naviColorNaranjo {
+/* Naranjo */
+.navi a:nth-child(n+10) {
 	background-color:#F8B35C;
 	}
 	
-.naviColorMorado{
+/* Morado */ 
+.navi a:nth-child(n+11){
 	background-color:#A38FC1;
 	}
 
-.naviColorAmarillo {
-	background-color:#FFE578;
+.navi a:nth-child(n+12){
+	background-color:#A38FC1;
 	}
+
+/* Amarillo 
+.navi a:nth-child(n+12) {
+	background-color:#FFE578;
+	}*/
 
 
 
