@@ -23,11 +23,11 @@
                     <div class="nav-collapse collapse">
                   
                         <ul class="menuPpal nav">
-                        <li><a href="http://www.votainteligente.cl"><img src="images/logoVotaMunicipales.png"></a> </li>
-                        <li class="dentroMenu"><a href="#">¿Quiénes Somos?</a></li>
-                        <li class="dentroMenu"><a href="#">Metodología</a></li>
-                        <li class="dentroMenu"><a href="#">Candidatos</a></li>
-                        <li class="dentroMenu"><form class="navbar-search pull-right">
+                        <li class="pull-left"><a href="http://www.votainteligente.cl"><img src="images/logoVotaMunicipales.png" style="margin-left: -16px; margin-right: 169px;"></a> </li>
+                        <li class="dentroMenu pull-right"><a href="#">¿Quiénes Somos?</a></li>
+                        <li class="dentroMenu pull-right"><a href="#">Metodología</a></li>
+                        
+                        <li class="dentroMenu pull-right"><form class="navbar-search pull-right">
                             <input type="text" class="search-query" placeholder="Buscar una comuna">
                            	</form></li>
                         </ul>
@@ -59,14 +59,25 @@
                         	<a class="close" data-dismiss="alert" href="https://www.accesointeligente.org/AccesoInteligente/#home" target="_blank"> <img src="./images/logoVota.png"/>  ¿Andas en busca de nuestro Vota Inteligente? Encuéntralo aquí! <img src="./images/logoVota.png"/>&nbsp; &nbsp;</a>
                         </div>
        
-           
-     
+         
+       										  <script>
+												$(document).ready(function() {
+													// Handler for .ready() called.
+													 $("#dyna img[title]").tooltip({
+											   		offset: [10, 2],
+											  		 effect: 'slide'
+														});
+												});
+											</script>
           
     	
     	<div class="container">
-         <div class="row">
+         <div class="row queHacemos">
                 <div class="span6 subTitulosHomeInfo">
-                <button class="btn btn-block btn-inverse"> <a href="#">Info Municipal <img src="./images/iconoInfoHome.png" style="float: right;"/> </a></button>
+                
+                 <button class="btn btn-block btn-inverse" id="dyna" <a href="#" title="Completar Buscador Superior"> <img src="images/iconoInfoHome.png" style="float: right;"/> Info Municipal 
+                    </a> </button>
+                
                 <br/>
 				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p> 
 				</div>
@@ -74,14 +85,14 @@
                 
                 <div class="span3 subTitulosHomePreguntar">
                 
-                <button class="btn btn-block btn-inverse"> <a href="#"> Preguntar<img src="./images/iconoPregunta2.png" style="float: right;"/> </a></button>
+                <button class="btn btn-block btn-inverse"> <a href="#"> Preguntar <img src="./images/iconoPregunta2.png" style="float: right;"/> </a></button> 
                 <br/>
 				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
                 </div>
               
                 
                 <div class="span3 subTitulosHomeReportar"> 
-                <button class="btn btn-block btn-inverse"> <a href="#"> Reportar<img src="./images/iconoReporta.png" style="float: right;"/> </a></button>
+                <button class="btn btn-block btn-inverse"> <a href="./reporta.html"> Reportar<img src="./images/iconoReporta.png" style="float: right;"/> </a></button>
                 <br/>
 				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
                 </div>
@@ -92,7 +103,7 @@
         <br/>
         <br />
         
-       <!-- <div class="container">
+        <div class="container">
          <div class="row">
                 <div class="span6">
                 <h5>Video 1</h5>
@@ -102,7 +113,7 @@
                 <h5>Video 2</h5>
 				<img src="images/ejemplo-video.png" /> 
 				</div>
-        </div> -->
+        </div> 
         
        </div>
         </div>
